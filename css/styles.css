@@ -606,6 +606,20 @@ main {
   line-height: 1.75rem;
 }
 
+/* Links da janela da home, no mesmo estilo do "View case study ↗" dos cartões */
+.window__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.link-arrow {
+  color: var(--color-text-link);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
 /* ============================================================
    COMPONENTES: formulário e botão (página Contact)
    ============================================================ */
