@@ -611,6 +611,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-3);
+  margin-top: 1.5rem; /* 24px entre a frase do hero e os links */
 }
 
 .link-arrow {
